@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0531265-72fb-48fa-913c-e2db3b983699" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/MoneyTest.class" afterPath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/MoneyTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Dollar.class" afterPath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Dollar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Franc.class" afterPath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Franc.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Money$Companion.class" afterPath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Money$Companion.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Money.class" afterPath="$PROJECT_DIR$/out/production/TestDrivenDevelopment/money/Money.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MoneyTest.kt" afterPath="$PROJECT_DIR$/src/MoneyTest.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money/Dollar.kt" afterPath="$PROJECT_DIR$/src/money/Dollar.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money/Franc.kt" afterPath="$PROJECT_DIR$/src/money/Franc.kt" />
@@ -27,14 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoneyTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#184#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,18 +46,18 @@
       <file leaf-file-name="Franc.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/money/Franc.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Money.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Money.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/money/Money.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -62,8 +66,8 @@
       <file leaf-file-name="Dollar.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/money/Dollar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -97,10 +101,10 @@
         <option value="$PROJECT_DIR$/TestDrivenDevelopment.iml" />
         <option value="$PROJECT_DIR$/src/MoneryTest.kt" />
         <option value="$PROJECT_DIR$/src/Dollar.kt" />
-        <option value="$PROJECT_DIR$/src/money/Dollar.kt" />
-        <option value="$PROJECT_DIR$/src/money/Franc.kt" />
-        <option value="$PROJECT_DIR$/src/money/Money.kt" />
         <option value="$PROJECT_DIR$/src/MoneyTest.kt" />
+        <option value="$PROJECT_DIR$/src/money/Franc.kt" />
+        <option value="$PROJECT_DIR$/src/money/Dollar.kt" />
+        <option value="$PROJECT_DIR$/src/money/Money.kt" />
       </list>
     </option>
   </component>
@@ -368,15 +372,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyTest - 2018.02.21 at 23h 11m 24s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.02.21 at 23h 15m 45s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest - 2018.02.21 at 23h 18m 44s.xml">
-      <configuration name="MoneyTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoneyTest - 2018.02.21 at 23h 19m 07s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
@@ -390,6 +385,15 @@
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest - 2018.02.21 at 23h 44m 18s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.02.22 at 00h 07m 59s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.02.22 at 00h 11m 11s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.02.22 at 00h 15m 48s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest_testEquality - 2018.02.21 at 23h 20m 33s.xml">
@@ -459,9 +463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#184#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -481,37 +483,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/money/Dollar.kt">
+    <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/money/Franc.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="69" lean-forward="false" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/money/Dollar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/money/Money.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#184#0" expanded="true" />
-          </folding>
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
