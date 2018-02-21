@@ -1,8 +1,7 @@
 package money
 
 import java.awt.event.MouseEvent
-
-abstract class Money(amount : Int, currency : String) {
+open class Money(amount : Int, currency : String) {
     val amount : Int = amount
     val currency : String = currency
 
@@ -11,10 +10,10 @@ abstract class Money(amount : Int, currency : String) {
         fun franc(amount : Int) : Franc = Franc(amount, "CHF")
     }
 
-    override final fun equals(any : Any?) : Boolean {
+    override fun equals(any : Any?) : Boolean {
         val money : Money = any as Money
-        return (amount == money.amount) && (this::class.java == money::class.java)
+        return (amount == money.amount) && (this.currency == money.currency)
     }
 
-    abstract fun times(multiplier : Int) : Money
+    fun times(multiplier : Int) : Money = Money(amount * multiplier, currency)
 }
