@@ -5,6 +5,6 @@ open class Money(amount : Int) {
 
     override final fun equals(any : Any?) : Boolean {
         val money : Money = any as Money
-        return amount == money.amount
+        return (amount == money.amount) && (this::class.java == money::class.java)
     }
 }

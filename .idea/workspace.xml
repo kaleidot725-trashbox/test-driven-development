@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0531265-72fb-48fa-913c-e2db3b983699" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/money/Money.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MoneyTest.kt" afterPath="$PROJECT_DIR$/src/MoneyTest.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money/Dollar.kt" afterPath="$PROJECT_DIR$/src/money/Dollar.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money/Franc.kt" afterPath="$PROJECT_DIR$/src/money/Franc.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/money/Money.kt" afterPath="$PROJECT_DIR$/src/money/Money.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoneyTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoneyTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="330">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#0#165#0" expanded="true" />
               </folding>
@@ -51,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Money.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Money.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/money/Money.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -100,9 +96,9 @@
         <option value="$PROJECT_DIR$/src/MoneryTest.kt" />
         <option value="$PROJECT_DIR$/src/Dollar.kt" />
         <option value="$PROJECT_DIR$/src/money/Dollar.kt" />
-        <option value="$PROJECT_DIR$/src/money/Money.kt" />
-        <option value="$PROJECT_DIR$/src/MoneyTest.kt" />
         <option value="$PROJECT_DIR$/src/money/Franc.kt" />
+        <option value="$PROJECT_DIR$/src/MoneyTest.kt" />
+        <option value="$PROJECT_DIR$/src/money/Money.kt" />
       </list>
     </option>
   </component>
@@ -179,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest">
+  <component name="RunManager" selected="JUnit.MoneyTest.testEquality">
     <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TestDrivenDevelopment" />
@@ -349,10 +345,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MoneyTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MoneyTest.testFrancMultiplication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MoneyTest.testMultiplication" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MoneyTest.testEquality" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MoneyTest.testEquality" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MoneyTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MoneyTest.testFrancMultiplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MoneyTest.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -379,20 +375,20 @@
     <history-entry file="MoneyTest - 2018.02.21 at 23h 15m 45s.xml">
       <configuration name="MoneyTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MoneyTest - 2018.02.21 at 23h 18m 44s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest - 2018.02.21 at 23h 19m 07s.xml">
+      <configuration name="MoneyTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MoneyTest_testEquality - 2018.02.18 at 22h 33m 53s.xml">
+      <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyTest_testEquality - 2018.02.21 at 23h 20m 33s.xml">
       <configuration name="MoneyTest.testEquality" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest_testFrancMultiplication - 2018.02.18 at 23h 09m 49s.xml">
       <configuration name="MoneyTest.testFrancMultiplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2018.02.18 at 21h 26m 26s.xml">
-      <configuration name="MoneyTest.testMultiplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2018.02.18 at 21h 45m 24s.xml">
-      <configuration name="MoneyTest.testMultiplication" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoneyTest_testMultiplication - 2018.02.18 at 21h 49m 11s.xml">
-      <configuration name="MoneyTest.testMultiplication" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoneyTest_testMultiplication - 2018.02.18 at 22h 43m 35s.xml">
       <configuration name="MoneyTest.testMultiplication" configurationId="JUnit" />
@@ -491,6 +487,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/money/Franc.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -501,19 +507,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/money/Money.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoneyTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
