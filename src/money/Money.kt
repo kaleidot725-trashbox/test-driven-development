@@ -6,8 +6,8 @@ open class Money(amount : Int, currency : String) {
     val currency : String = currency
 
     companion object {
-        fun dollar(amount : Int) : Dollar = Dollar(amount, "USD")
-        fun franc(amount : Int) : Franc = Franc(amount, "CHF")
+        fun dollar(amount : Int) : Money = Money(amount, "USD")
+        fun franc(amount : Int) : Money = Money(amount, "CHF")
     }
 
     override fun equals(any : Any?) : Boolean {
