@@ -1,3 +1,5 @@
+import money.Bank
+import money.Expression
 import org.junit.jupiter.api.Test
 import money.Money
 import kotlin.test.assertEquals
@@ -23,5 +25,14 @@ class MoneyTest {
     fun testCurrency() {
         assertEquals("USD", Money.dollar(1).currency)
         assertEquals("CHF", Money.franc(1).currency)
+    }
+
+    @Test
+    fun testSimpleAddition(){
+        val five : Money = Money.dollar(5)
+        val sum : Expression = five.plus(five)
+        val bank : Bank = Bank()
+        val reduced : Money = bank.reduce(sum, "USD")
+        assertEquals(Money.dollar(10), reduced)
     }
 }

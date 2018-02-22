@@ -1,7 +1,7 @@
 package money
 
 import java.awt.event.MouseEvent
-open class Money(amount : Int, currency : String) {
+class Money(amount : Int, currency : String) : Expression {
     val amount : Int = amount
     val currency : String = currency
 
@@ -15,5 +15,6 @@ open class Money(amount : Int, currency : String) {
         return (amount == money.amount) && (this.currency == money.currency)
     }
 
-    fun times(multiplier : Int) : Money = Money(amount * multiplier, currency)
+    fun times(multiplier : Int) : Expression = Money(amount * multiplier, currency)
+    fun plus(append : Money) : Money = Money(amount + append.amount, currency)
 }
