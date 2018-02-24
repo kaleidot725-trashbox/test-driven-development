@@ -16,5 +16,6 @@ class Money(amount : Int, currency : String) : Expression {
     }
 
     fun times(multiplier : Int) : Expression = Money(amount * multiplier, currency)
-    fun plus(append : Money) : Money = Money(amount + append.amount, currency)
+    fun plus(append : Money) : Sum = Sum(this, append)
+    override fun reduce(to : String) : Money = this
 }
