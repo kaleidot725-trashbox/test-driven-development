@@ -17,5 +17,8 @@ class Money(amount : Int, currency : String) : Expression {
 
     fun times(multiplier : Int) : Expression = Money(amount * multiplier, currency)
     fun plus(append : Money) : Sum = Sum(this, append)
-    override fun reduce(to : String) : Money = this
+    override fun reduce(bank : Bank, to : String) : Money {
+        val rate : Int = bank.rate(currency, to)
+        return Money(amount / rate, to)
+    }
 }

@@ -3,6 +3,7 @@ import money.Expression
 import org.junit.jupiter.api.Test
 import money.Money
 import money.Sum
+import java.util.*
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
@@ -59,5 +60,23 @@ class MoneyTest {
         val bank : Bank = Bank()
         val result : Money = bank.reduce(Money.dollar(1), "USD")
         assertEquals(Money.dollar(1), result)
+    }
+
+    @Test
+    fun testReduceMoneyDifferentCurrency(){
+        val bank : Bank = Bank()
+        bank.addRate("CHF", "USD", 2)
+        val result : Money = bank.reduce(Money.franc(2), "USD")
+        assertEquals(Money.dollar(1), result)
+    }
+
+    @Test
+    fun testArrayEquals() {
+        assertEquals(arrayListOf("abc"), arrayListOf("abc"))
+    }
+
+    @Test
+    fun testIdentityRate(){
+        assertEquals(1, Bank().rate("USD", "USD"))
     }
 }
